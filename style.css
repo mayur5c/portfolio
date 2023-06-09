@@ -179,10 +179,11 @@
 
 
  .about-container {
-   display: grid;
+   display: flex;
    grid-template-columns: repeat(2, 1fr);
    gap: 1rem;
    margin-top: 2rem;
+   justify-content: center;
  }
 
  .about-img img {
@@ -217,7 +218,7 @@
 
  .skills-container {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(1, 1fr);
    align-items: center;
    gap: 2rem;
    margin-top: 4rem;
