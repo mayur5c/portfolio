@@ -280,6 +280,10 @@
    width: 80%;
  }
 
+ .andr-bar {
+   width: 50%;
+ }
+
  .services-content {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
